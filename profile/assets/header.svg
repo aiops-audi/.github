@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-label="AUDI/AIOPS">
+  <style>
+    .logo { font: 800 22px 'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif; fill:#ebe8e1; letter-spacing:-0.5px; }
+    .slash { fill:#e4ff5c; }
+    .nav { font: 500 11px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; fill:#8a8a85; letter-spacing:3px; }
+    .btn { font: 600 11px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; fill:#0a0a0a; letter-spacing:2.5px; }
+    .av { font: 700 12px ui-monospace,'SF Mono',Menlo,monospace; fill:#ebe8e1; }
+  </style>
+  <rect width="1200" height="96" fill="#0a0a0a"/>
+  <rect width="1200" height="1" y="95" fill="#1f1f1f"/>
+  <text x="40" y="56" class="logo">AUDI<tspan class="slash">/</tspan>AIOPS</text>
+  <text x="640" y="53" class="nav">REPOS</text>
+  <text x="730" y="53" class="nav">STACK</text>
+  <text x="820" y="53" class="nav">HOW WE SHIP</text>
+  <rect x="980" y="28" width="132" height="40" fill="#e4ff5c"/>
+  <text x="1046" y="53" class="btn" text-anchor="middle">DASHBOARD</text>
+  <rect x="1124.5" y="28.5" width="35" height="39" fill="#141414" stroke="#2a2a2a"/>
+  <rect x="1132" y="36" width="20" height="24" fill="#2a2a2a"/>
+  <text x="1142" y="53" class="av" text-anchor="middle">A</text>
+</svg>

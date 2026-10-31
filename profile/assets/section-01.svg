@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-label="REPOSITORIES">
+  <style>
+    .m { font: 500 11px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; letter-spacing:4px; }
+    .t { font: 800 30px 'Space Grotesk','Inter','Helvetica Neue','Arial Black',Arial,sans-serif; fill:#ebe8e1; letter-spacing:-1px; }
+  </style>
+  <rect width="1200" height="70" fill="#0a0a0a"/>
+  <circle cx="44" cy="22" r="3.5" fill="#e4ff5c"/>
+  <text x="58" y="26" class="m" fill="#e4ff5c">01</text>
+  <text x="1160" y="26" class="m" fill="#5a5a55" text-anchor="end">MEMBERS ONLY</text>
+  <text x="40" y="60" class="t">REPOSITORIES</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="200" viewBox="0 0 380 200" role="img" aria-label="03 SHIP">
+  <style>
+    .big { font: 800 72px 'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif; letter-spacing:-3px; }
+    .t { font: 600 12px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; fill:#ebe8e1; letter-spacing:4px; }
+    .d { font: 400 14px 'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif; fill:#8a8a85; }
+  </style>
+  <rect x="0.5" y="0.5" width="379" height="199" fill="#0d0d0d" stroke="#262626"/>
+  <text x="22" y="86" class="big" fill="#e4ff5c">03</text>
+  <text x="22" y="124" class="t">SHIP ✦</text>
+  <text x="22" y="154" class="d">Reusable workflows do the rest:</text>
+  <text x="22" y="176" class="d">test, build, publish, deploy. Ship happens.</text>
+</svg>

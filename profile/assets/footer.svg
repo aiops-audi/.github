@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-label="AUDI AIOPS — EST. 2026 — MEMBERS ONLY">
+  <style>.m { font: 500 11px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; letter-spacing:4px; }</style>
+  <rect width="1200" height="80" fill="#0a0a0a"/>
+  <rect x="40" y="0" width="1120" height="1" fill="#1f1f1f"/>
+  <text x="40" y="46" class="m" fill="#5a5a55">AUDI<tspan fill="#e4ff5c">/</tspan>AIOPS — EST. 2026</text>
+  <text x="1160" y="46" class="m" fill="#5a5a55" text-anchor="end">MEMBERS ONLY ● <tspan fill="#e4ff5c">SHIP HAPPENS.</tspan></text>
+</svg>
