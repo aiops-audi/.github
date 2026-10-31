@@ -7,6 +7,6 @@ Public org profile and **public design assets** for Audi AIOPS.
 
 Do not put private repository names or internal details here — everything in this repo is public.
 
-Images are referenced via jsDelivr (`cdn.jsdelivr.net/gh/aiops-audi/.github@main/...`) because `raw.githubusercontent.com` is blocked by the corporate Zscaler proxy. jsDelivr caches branches for up to 12h; after changing an SVG, purge it at `https://purge.jsdelivr.net/gh/aiops-audi/.github@main/profile/assets/<file>.svg`.
+Images are referenced via jsDelivr pinned to a commit of `aiops-audi/.github` (`cdn.jsdelivr.net/gh/aiops-audi/.github@<commit>/...`) because `raw.githubusercontent.com` is blocked by the corporate Zscaler proxy and `@main` is cached for hours. After changing an SVG in `.github`, push it, then replace the commit hash in both `profile/README.md` files with the new commit.
 
 Palette: `#080b20` navy · `#f1f4ff` type · `#00e7ff` cyan · `#6035c9` violet glow.
