@@ -9,4 +9,4 @@ Do not put private repository names or internal details here — everything in t
 
 Images are referenced via jsDelivr (`cdn.jsdelivr.net/gh/aiops-audi/.github@main/...`) because `raw.githubusercontent.com` is blocked by the corporate Zscaler proxy. jsDelivr caches branches for up to 12h; after changing an SVG, purge it at `https://purge.jsdelivr.net/gh/aiops-audi/.github@main/profile/assets/<file>.svg`.
 
-Palette: `#0a0a0a` background · `#ebe8e1` type · `#e4ff5c` accent.
+Palette: `#080b20` navy · `#f1f4ff` type · `#00e7ff` cyan · `#6035c9` violet glow.

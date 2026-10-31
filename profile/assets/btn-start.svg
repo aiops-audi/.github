@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="230" height="60" viewBox="0 0 230 60" role="img" aria-label="START SHIPPING  →">
-  <style>.t { font: 600 14px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; fill:#0a0a0a; letter-spacing:2.5px; }</style>
-  <rect x="0.5" y="0.5" width="229" height="59" fill="#e4ff5c"/>
+  <style>.t { font: 600 14px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; fill:#080b20; letter-spacing:2.5px; }</style>
+  <rect x="0.5" y="0.5" width="229" height="59" fill="#00e7ff"/>
   <text x="115.0" y="35" class="t" text-anchor="middle">START SHIPPING  →</text>
 </svg>

@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-label="Stack: Rust, Python, JavaScript, TypeScript, Terraform, AWS, GitHub Actions, Docker, LLMs, + more">
   <style>
-    .item { font: 500 34px 'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif; fill:#b8b5ae; }
-    .star { font: 400 20px Arial,sans-serif; fill:#e4ff5c; }
+    .item { font: 500 34px 'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif; fill:#d5def7; }
+    .star { font: 400 20px Arial,sans-serif; fill:#00e7ff; }
   </style>
-  <rect width="1200" height="100" fill="#0a0a0a"/>
-  <rect x="40" width="1120" height="1" fill="#1f1f1f"/>
-  <rect x="40" y="99" width="1120" height="1" fill="#1f1f1f"/>
+  <rect width="1200" height="100" fill="#080b20"/>
+  <rect x="40" width="1120" height="1" fill="#1c2b62"/>
+  <rect x="40" y="99" width="1120" height="1" fill="#1c2b62"/>
   <svg x="40" width="1120" height="100" viewBox="0 0 1120 100">
     <g>
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-2172 0" dur="28s" repeatCount="indefinite"/>

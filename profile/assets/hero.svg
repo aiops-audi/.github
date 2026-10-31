@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-label="SHIP HAPPENS. — AUDI AIOPS">
   <style>
-    .mono { font: 500 11px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; fill:#6b6b66; letter-spacing:4px; }
+    .mono { font: 500 11px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; fill:#8494c6; letter-spacing:4px; }
     .display { font: 800 210px 'Space Grotesk','Inter','Helvetica Neue','Arial Black',Arial,sans-serif; letter-spacing:-10px; }
-    .light { fill:#ebe8e1; }
-    .lime { fill:#e4ff5c; }
-    .sub { font: 800 56px 'Space Grotesk','Inter','Helvetica Neue','Arial Black',Arial,sans-serif; fill:#2b2b28; letter-spacing:-2px; }
+    .light { fill:#f1f4ff; }
+    .cyan { fill:#00e7ff; }
+    .sub { font: 800 56px 'Space Grotesk','Inter','Helvetica Neue','Arial Black',Arial,sans-serif; fill:#253264; letter-spacing:-2px; }
     .prompt { font: 500 14px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; }
-    .p1 { fill:#e4ff5c; } .p2 { fill:#5a5a55; }
-    .desc { font: 400 16px 'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif; fill:#8a8a85; }
+    .p1 { fill:#00e7ff; } .p2 { fill:#7182b7; }
+    .desc { font: 400 16px 'Space Grotesk','Inter','Helvetica Neue',Arial,sans-serif; fill:#a5b2d8; }
     .dot { animation: pulse 2s ease-in-out infinite; }
     .cursor { animation: blink 1.1s steps(1) infinite; }
     @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:.25 } }
@@ -16,17 +16,38 @@
   <defs>
     <clipPath id="typeclip"><rect x="0" y="0" height="40" width="0"><animate attributeName="width" values="0;10;19;28;37;46;55;64;73;83;92;92" dur="3.2s" calcMode="discrete" repeatCount="indefinite"/></rect></clipPath>
   </defs>
-  <rect width="1200" height="640" fill="#0a0a0a"/>
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b20"/>
+      <stop offset="0.55" stop-color="#111039"/>
+      <stop offset="1" stop-color="#101b42"/>
+    </linearGradient>
+    <radialGradient id="violet-glow" cx="82%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#6035c9" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#6035c9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="640" fill="url(#hero-bg)"/>
+  <rect width="1200" height="640" fill="url(#violet-glow)"/>
+  <g fill="none" stroke="#3862c8" stroke-width="1" opacity=".24">
+    <path d="M1080 88v80h-34v54h-32M1160 118h-42v82h-40v36M1100 468v-58h52v-72h28M1200 360h-26v-42h-30M1060 516v-30h48v-32"/>
+    <path d="M1020 276h42v-38h34v-34M1200 260h-28v44h-42v38M1050 364h32v38h42"/>
+    <circle cx="1014" cy="222" r="3" fill="#00e7ff" stroke="none"/>
+    <circle cx="1138" cy="200" r="3" fill="#00e7ff" stroke="none"/>
+    <circle cx="1188" cy="338" r="3" fill="#00e7ff" stroke="none"/>
+    <circle cx="1128" cy="460" r="3" fill="#00e7ff" stroke="none"/>
+    <circle cx="1060" cy="276" r="3" fill="#8b6cff" stroke="none"/>
+  </g>
 
-  <circle class="dot" cx="44" cy="42" r="3.5" fill="#e4ff5c"/>
+  <circle class="dot" cx="44" cy="42" r="3.5" fill="#00e7ff"/>
   <text x="58" y="46" class="mono">AI-OPS PLATFORM · AUDI</text>
   <text x="1160" y="46" class="mono" text-anchor="end">EST. 2026 — V1.0</text>
 
   <text x="32" y="270" class="display light">SHIP</text>
-  <text x="32" y="450" class="display lime">HAPPENS.</text>
-  <circle class="cursor" cx="1000" cy="432" r="20" fill="none" stroke="#ebe8e1" stroke-width="2"/>
+  <text x="32" y="450" class="display cyan">HAPPENS.</text>
+  <circle class="cursor" cx="1000" cy="432" r="20" fill="none" stroke="#f1f4ff" stroke-width="2"/>
 
-  <rect x="40" y="510" width="1120" height="1" fill="#1f1f1f"/>
+  <rect x="40" y="510" width="1120" height="1" fill="#1c2b62"/>
   <text x="40" y="548" class="prompt"><tspan class="p1">~/aiops-audi</tspan><tspan class="p2"> ›</tspan></text>
   <g transform="translate(170 532)" clip-path="url(#typeclip)">
     <text x="0" y="16" class="prompt p2">git push_</text>

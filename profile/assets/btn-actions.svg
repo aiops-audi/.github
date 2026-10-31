@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="130" height="60" viewBox="0 0 130 60" role="img" aria-label="⚙ CI/CD">
-  <style>.t { font: 600 14px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; fill:#ebe8e1; letter-spacing:2.5px; }</style>
-  <rect x="0.5" y="0.5" width="129" height="59" fill="#0a0a0a" stroke="#2e2e2e"/>
+  <style>.t { font: 600 14px ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; fill:#f1f4ff; letter-spacing:2.5px; }</style>
+  <rect x="0.5" y="0.5" width="129" height="59" fill="#080b20" stroke="#2d3e78"/>
   <text x="65.0" y="35" class="t" text-anchor="middle">⚙ CI/CD</text>
 </svg>
