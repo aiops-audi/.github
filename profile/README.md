@@ -1,4 +1,4 @@
-<!-- Public AUDI/AIOPS org profile. Members see .github-private/profile/README.md instead. -->
+<!-- Standalone public AUDI/AIOPS org profile. All branding assets are hosted in this repository. -->
 
 <img src="https://cdn.jsdelivr.net/gh/aiops-audi/.github@2d9451425a04/profile/assets/header.svg" width="100%" alt="AUDI/AIOPS">
 
